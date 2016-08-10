@@ -1,6 +1,6 @@
 package main_test;
 
-import test4.TypeChangeTest;
+import test5.SingletonTest;
 
 /**
  * main_test.Hello test
@@ -37,9 +37,11 @@ public class Hello {
 //        System.out.println("Arrays test: ");
 //        ArraysTest.arraysTest();
 
-        System.out.println("Type test: ");
-        TypeChangeTest.typeTest();
+//        System.out.println("Type test: ");
+//        TypeChangeTest.typeTest();
 
+        System.out.println("Singleton test: ");
+        SingletonTest.test();
 
     }
 }

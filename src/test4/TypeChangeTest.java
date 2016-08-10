@@ -2,7 +2,7 @@ package test4;
 
 /**
  * TypeChangeTest
- * Created by dm on 16-8-10.
+ * Created by AbsentM on 16-8-10.
  */
 public class TypeChangeTest {
     public static void typeTest() {
