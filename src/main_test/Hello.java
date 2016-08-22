@@ -1,6 +1,6 @@
 package main_test;
 
-import test5.SingletonTest;
+import test8.TeaProgrammer;
 
 /**
  * main_test.Hello test
@@ -40,8 +40,23 @@ public class Hello {
 //        System.out.println("Type test: ");
 //        TypeChangeTest.typeTest();
 
-        System.out.println("Singleton test: ");
-        SingletonTest.test();
+//        System.out.println("Singleton test: ");
+//        SingletonTest.test();
+
+//        System.out.println("abstract test: ");
+//        Shape shape1 = new Triangle("red", 3, 4, 5);
+//        Shape shape2 = new Circle("Yellow", 2.2);
+//        System.out.println(shape1.getShapeType());
+//        System.out.println(shape1.calPerimeter());
+//        System.out.println(shape2.getShapeType());
+//        System.out.println(shape2.calPerimeter());
+
+//        System.out.println("anonymous test: ");
+//        AnonymousClassTest.Anonymoustest1();
+//        AnonymousTest.Anonymoustest2();
+
+        System.out.println("callback test: ");
+        TeaProgrammer.test();
 
     }
 }
