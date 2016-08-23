@@ -1,6 +1,7 @@
 package main_test;
 
-import test8.TeaProgrammer;
+import test9.CollectionTest;
+import test9.TreeSetTest;
 
 /**
  * main_test.Hello test
@@ -55,8 +56,15 @@ public class Hello {
 //        AnonymousClassTest.Anonymoustest1();
 //        AnonymousTest.Anonymoustest2();
 
-        System.out.println("callback test: ");
-        TeaProgrammer.test();
+//        System.out.println("callback test: ");
+//        TeaProgrammer.test();
+
+        System.out.println("collection test: ");
+        CollectionTest.test();
+        CollectionTest.iteratorTest();
+        TreeSetTest.test();
+        TreeSetTest.treeSetAddObjTest();
+        TreeSetTest.defineSortedTest();
 
     }
 }
