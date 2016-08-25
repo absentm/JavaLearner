@@ -1,7 +1,6 @@
 package main_test;
 
-import test9.CollectionTest;
-import test9.TreeSetTest;
+import test10.LunarCalendarTest;
 
 /**
  * main_test.Hello test
@@ -59,12 +58,14 @@ public class Hello {
 //        System.out.println("callback test: ");
 //        TeaProgrammer.test();
 
-        System.out.println("collection test: ");
-        CollectionTest.test();
-        CollectionTest.iteratorTest();
-        TreeSetTest.test();
-        TreeSetTest.treeSetAddObjTest();
-        TreeSetTest.defineSortedTest();
+//        System.out.println("collection test: ");
+//        CollectionTest.test();
+//        CollectionTest.iteratorTest();
+//        TreeSetTest.test();
+//        TreeSetTest.treeSetAddObjTest();
+//        TreeSetTest.defineSortedTest();
 
+        System.out.println("Lunar test: ");
+        LunarCalendarTest.lunarTest();
     }
 }

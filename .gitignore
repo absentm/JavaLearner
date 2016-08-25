@@ -18,7 +18,8 @@ hs_err_pid*
 out
 *.iml
 
-
+# test output files
+solar2lunar.txt
 
 
 
