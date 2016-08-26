@@ -1,6 +1,7 @@
 package main_test;
 
-import test10.LunarCalendarTest;
+import test11.JavaTest1;
+import test11.JavaTest2;
 
 /**
  * main_test.Hello test
@@ -65,7 +66,11 @@ public class Hello {
 //        TreeSetTest.treeSetAddObjTest();
 //        TreeSetTest.defineSortedTest();
 
+//        System.out.println("Lunar test: ");
+//        LunarCalendarTest.lunarTest();
+
         System.out.println("Lunar test: ");
-        LunarCalendarTest.lunarTest();
+        JavaTest1.test1();
+        JavaTest2.test2();
     }
 }
