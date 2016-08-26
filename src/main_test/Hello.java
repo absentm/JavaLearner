@@ -69,7 +69,7 @@ public class Hello {
 //        System.out.println("Lunar test: ");
 //        LunarCalendarTest.lunarTest();
 
-        System.out.println("Lunar test: ");
+        System.out.println("three-fold foreach test: ");
         JavaTest1.test1();
         JavaTest2.test2();
     }
