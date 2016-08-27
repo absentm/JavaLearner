@@ -1,13 +1,13 @@
 package main_test;
 
-import test13.JoinThreadTest;
+import test14.DownloadUtil;
 
 /**
  * main_test.Hello test
  * Created by AbsentM on 16-8-7.
  */
 public class Hello {
-    public static void main(String[] args) throws ClassNotFoundException {
+    public static void main(String[] args) throws Exception {
         System.out.println("hello world");
 
 //        System.out.println("switch test begin");
@@ -80,6 +80,8 @@ public class Hello {
 //        FirstThreadTest.test();
 //        SecondThreadTest.test();
 //        ThirdThreadTest.test();
-        JoinThreadTest.test();
+//        JoinThreadTest.test();
+
+        DownloadUtil.downloadTest();
     }
 }
