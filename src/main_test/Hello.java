@@ -1,6 +1,6 @@
 package main_test;
 
-import test14.DownloadUtil;
+import test14.StringUtils;
 
 /**
  * main_test.Hello test
@@ -76,12 +76,15 @@ public class Hello {
 //        // please add package name first in process()
 //        ProcessorTest.process("test12.MethodCollection");
 
-        System.out.println("Thread test: ");
+//        System.out.println("Thread test: ");
 //        FirstThreadTest.test();
 //        SecondThreadTest.test();
 //        ThirdThreadTest.test();
 //        JoinThreadTest.test();
 
-        DownloadUtil.downloadTest();
+        System.out.println("Utils test: ");
+//        DownloadUtils.downloadTest();
+        StringUtils.test();
+
     }
 }

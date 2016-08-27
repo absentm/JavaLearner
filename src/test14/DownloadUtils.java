@@ -7,17 +7,17 @@ import java.net.URL;
 
 
 /**
- * DownloadUtil
+ * DownloadUtils
  * Created by dm on 16-8-27.
  */
-public class DownloadUtil {
+public class DownloadUtils {
     private String path;    // download source path
     private String targetFile;     // save position
     private int threadNum;  // numbers of download thread
     private DownloadThread[] mThreads;  // the object of download threads
     private int fileSize;   // the total size of download file
 
-    public DownloadUtil(String path, String targetFile, int threadNum) {
+    public DownloadUtils(String path, String targetFile, int threadNum) {
         this.path = path;
         this.targetFile = targetFile;
         mThreads = new DownloadThread[threadNum];
@@ -135,13 +135,13 @@ public class DownloadUtil {
      * @throws Exception
      */
     public static void downloadTest() throws Exception {
-        final DownloadUtil downloadUtil = new DownloadUtil("http://img.blog.csdn.net/20151212173343548",
+        final DownloadUtils downloadUtils = new DownloadUtils("http://img.blog.csdn.net/20151212173343548",
                 "test.jpg", 4);
-        downloadUtil.download(4);
+        downloadUtils.download(4);
 
         new Thread(() -> {
-            while (downloadUtil.getCompleteRate() < 1) {
-                System.out.println("has completed: " + downloadUtil.getCompleteRate());
+            while (downloadUtils.getCompleteRate() < 1) {
+                System.out.println("has completed: " + downloadUtils.getCompleteRate());
 
                 try {
                     Thread.sleep(1000);
