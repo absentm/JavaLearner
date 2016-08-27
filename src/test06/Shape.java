@@ -1,4 +1,4 @@
-package test6;
+package test06;
 
 /**
  * abstract class, template model

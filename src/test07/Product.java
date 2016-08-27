@@ -1,4 +1,4 @@
-package test7;
+package test07;
 
 /**
  * Product interface

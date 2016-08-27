@@ -20,7 +20,7 @@ public class JavaTest2 {
 
         long endTime = System.currentTimeMillis();
         System.out.println("\nJava Test2 count: " + count);
-        System.out.println("\nJava test2 time: " + (endTime - startTime));
+        System.out.println("\nJava test02 time: " + (endTime - startTime));
     }
 
     private static void function(int i, int j, int k) {

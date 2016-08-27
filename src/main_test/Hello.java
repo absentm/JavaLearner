@@ -1,14 +1,13 @@
 package main_test;
 
-import test11.JavaTest1;
-import test11.JavaTest2;
+import test13.JoinThreadTest;
 
 /**
  * main_test.Hello test
  * Created by AbsentM on 16-8-7.
  */
 public class Hello {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ClassNotFoundException {
         System.out.println("hello world");
 
 //        System.out.println("switch test begin");
@@ -27,7 +26,7 @@ public class Hello {
 //        SwitchTest.switchTest6(inputValue1);
 //
 //        // we can get switch accept "String" type
-//        // input: hello; output:I am in test6, here case1: hello
+//        // input: hello; output:I am in test06, here case1: hello
 //        Scanner strInput = new Scanner(System.in);
 //        String strValue = strInput.nextLine();
 //        SwitchTest.switchTest7(strValue);
@@ -69,8 +68,18 @@ public class Hello {
 //        System.out.println("Lunar test: ");
 //        LunarCalendarTest.lunarTest();
 
-        System.out.println("three-fold foreach test: ");
-        JavaTest1.test1();
-        JavaTest2.test2();
+//        System.out.println("three-fold foreach test: ");
+//        JavaTest1.test1();
+//        JavaTest2.test2();
+
+//        System.out.println("Annotation test: ");
+//        // please add package name first in process()
+//        ProcessorTest.process("test12.MethodCollection");
+
+        System.out.println("Thread test: ");
+//        FirstThreadTest.test();
+//        SecondThreadTest.test();
+//        ThirdThreadTest.test();
+        JoinThreadTest.test();
     }
 }

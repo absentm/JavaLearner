@@ -1,4 +1,4 @@
-package test2;
+package test02;
 
 /**
  * FloatDivisionTest

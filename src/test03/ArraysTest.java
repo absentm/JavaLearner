@@ -1,9 +1,9 @@
-package test3;
+package test03;
 
 import java.util.Arrays;
 
 /**
- * test3.ArraysTest
+ * test03.ArraysTest
  * Created by AbsentM on 16-8-9.
  */
 public class ArraysTest {
