@@ -1,6 +1,6 @@
 package main_test;
 
-import test14.StringUtils;
+import test15.baseTest.ReflectionTest;
 
 /**
  * main_test.Hello test
@@ -82,9 +82,18 @@ public class Hello {
 //        ThirdThreadTest.test();
 //        JoinThreadTest.test();
 
-        System.out.println("Utils test: ");
-//        DownloadUtils.downloadTest();
-        StringUtils.test();
+//        System.out.println("Utils test: ");
+////        DownloadUtils.downloadTest();
+//        StringUtils.test();
+
+        System.out.println("Reflection test: ");
+//        ReflectionTest.basicTest1();
+//        ReflectionTest.basicTest2();
+//        ReflectionTest.forNameDemo();
+//        ReflectionTest.simpleClassViewer();
+//        ReflectionTest.classLoaderDemo();
+//        ReflectionTest.commandUtilsDemo();
+        ReflectionTest.ProxyDemo();
 
     }
 }
