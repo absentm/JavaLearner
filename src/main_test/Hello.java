@@ -1,6 +1,6 @@
 package main_test;
 
-import test15.baseTest.ReflectionTest;
+import test16.initSeqWithSubClass.SubClass;
 
 /**
  * main_test.Hello test
@@ -86,14 +86,18 @@ public class Hello {
 ////        DownloadUtils.downloadTest();
 //        StringUtils.test();
 
-        System.out.println("Reflection test: ");
-//        ReflectionTest.basicTest1();
-//        ReflectionTest.basicTest2();
-//        ReflectionTest.forNameDemo();
-//        ReflectionTest.simpleClassViewer();
-//        ReflectionTest.classLoaderDemo();
-//        ReflectionTest.commandUtilsDemo();
-        ReflectionTest.ProxyDemo();
+//        System.out.println("Reflection test: ");
+////        ReflectionTest.basicTest1();
+////        ReflectionTest.basicTest2();
+////        ReflectionTest.forNameDemo();
+////        ReflectionTest.simpleClassViewer();
+////        ReflectionTest.classLoaderDemo();
+////        ReflectionTest.commandUtilsDemo();
+//        ReflectionTest.ProxyDemo();
+
+        System.out.println("InitSequence test: ");
+//        InitSequence.InitSequenceTest();
+        SubClass.initSeqWithSubClassTest();
 
     }
 }
