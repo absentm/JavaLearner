@@ -1,6 +1,6 @@
 package main_test;
 
-import test16.initSeqWithSubClass.SubClass;
+import test17.ASubClass;
 
 /**
  * main_test.Hello test
@@ -95,9 +95,11 @@ public class Hello {
 ////        ReflectionTest.commandUtilsDemo();
 //        ReflectionTest.ProxyDemo();
 
-        System.out.println("InitSequence test: ");
+//        System.out.println("InitSequence test: ");
 //        InitSequence.InitSequenceTest();
-        SubClass.initSeqWithSubClassTest();
+//        SubClass.initSeqWithSubClassTest();
 
+        System.out.println("MulSisu test: ");
+        ASubClass.MulSisTest();
     }
 }
