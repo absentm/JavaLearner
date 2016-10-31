@@ -1,6 +1,6 @@
 package main_test;
 
-import test17.ASubClass;
+import test18.OneSubClass;
 
 /**
  * main_test.Hello test
@@ -99,7 +99,11 @@ public class Hello {
 //        InitSequence.InitSequenceTest();
 //        SubClass.initSeqWithSubClassTest();
 
-        System.out.println("MulSisu test: ");
-        ASubClass.MulSisTest();
+//        System.out.println("MulSisu test: ");
+//        ASubClass.MulSisTest();
+
+        System.out.println("constructor test: ");
+        new OneSubClass("x");
+
     }
 }
